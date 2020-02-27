@@ -1,15 +1,15 @@
-#Interview preparation
-##DSU Devlopers Club
+# Interview preparation
+## DSU Devlopers Club
 
 We learn about Data Structures & Algorithms and solve technical interview questions together. Everyone code in the programming language they feel more comfortable with.
 
-###Requisites
+### Requisites
 * Control Flow
 * Loops
 * Basic knowledge of sorting algorithms(Bubble sort or Selection sort)
 * Basic sequential search in an unsorted array
 
-###Topics
+### Topics
 * Arrays and Linked List
 * Stacks
 * Queues
@@ -17,7 +17,7 @@ We learn about Data Structures & Algorithms and solve technical interview questi
 * Recursion
 * Trees and heaps
 
-###External resources
+### External resources
 * [Linked learning course](https://www.linkedin.com/learning/get-ready-for-your-coding-interview/welcome?u=2105105)
 * [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/algorithms/algorithms-introduction/)
 * [LeetCode Top Interview Questions](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
