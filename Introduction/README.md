@@ -52,3 +52,12 @@ function Fibonacci(int number) {
 
 ### Log(N)
 When an algorithm operations are reduced in half as the iterations continues. **Example**: **Binary Search**
+
+![Binary search Image](https://raw.githubusercontent.com/dsudevelopersclub/interviewPrep/master/Introduction/images/binarySearch.png)
+
+### Big Oh Chart
+
+![Big Oh Chart](https://raw.githubusercontent.com/dsudevelopersclub/interviewPrep/master/Introduction/images/bigOhChart.png)
+
+### Sorting Algorithms Chart
+![Sorting Algorithms Chart](https://raw.githubusercontent.com/dsudevelopersclub/interviewPrep/master/Introduction/images/bigOhSortingAlgorithms.png)
