@@ -3,8 +3,8 @@
  * function ListNode(val) {
  *     this.val = val;
  *     this.next = null;
- * }
- */
+ * } bloops bloops
+ */ 
 /**
  * @param {ListNode} head
  * @return {ListNode}
