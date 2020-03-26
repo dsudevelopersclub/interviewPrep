@@ -23,20 +23,15 @@ var countPermutations = function(numTwos, numOnes) {
 }
 
 var factorial = function(num) {
-    let mapKey = num;
-    let result = 1;
-   
-    if(factorialMap[mapKey] != null) {
-        result = factorialMap[mapKey];
-    } else {     
-        
-        while(num > 0) {
-            result *= num;
-            num--;
-        }
-
-        factorialMap[mapKey] = result;   
+    if(num <= 1) {        
+        return 1;
+    } else {
+        if(factorialMap[num] != null) {
+            return factorialMap[num];
+        } else {  
+            let res = num * factorial(num - 1);  
+            factorialMap[num] = res;
+            return res;
+        }        
     }
-    
-    return result;
 }
