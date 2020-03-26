@@ -2,6 +2,8 @@
  * @param {number} n
  * @return {number}
  */
+var factorialMap = {};
+
 var climbStairs = function(n) {
     let totalWays = 0;
     let total2Steps = Math.floor(n/2);
@@ -21,11 +23,20 @@ var countPermutations = function(numTwos, numOnes) {
 }
 
 var factorial = function(num) {
+    let mapKey = num;
     let result = 1;
-    while(num > 0) {
-        result *= num;
-        num--;
-    }
+   
+    if(factorialMap[mapKey] != null) {
+        result = factorialMap[mapKey];
+    } else {     
+        
+        while(num > 0) {
+            result *= num;
+            num--;
+        }
 
+        factorialMap[mapKey] = result;   
+    }
+    
     return result;
 }
